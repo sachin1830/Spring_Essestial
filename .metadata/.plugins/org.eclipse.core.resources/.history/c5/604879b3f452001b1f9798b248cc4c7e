@@ -1,0 +1,8 @@
+package com.spring.stereotype;
+
+public class Test
+{
+	public static void main(String[] args) {
+		
+	}
+}

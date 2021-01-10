@@ -1,0 +1,8 @@
+package com.springci;
+
+public class Person 
+{
+	private String name;
+	private String address;
+	private int id;
+}

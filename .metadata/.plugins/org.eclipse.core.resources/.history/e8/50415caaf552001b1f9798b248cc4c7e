@@ -1,0 +1,23 @@
+package com.spring.stereotype;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Student 
+{
+	private String studName;
+	private String studRoll;
+	public String getStudName() {
+		return studName;
+	}
+	public void setStudName(String studName) {
+		this.studName = studName;
+	}
+	public String getStudRoll() {
+		return studRoll;
+	}
+	public void setStudRoll(String studRoll) {
+		this.studRoll = studRoll;
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.springci;
+
+public class FavProg 
+{
+	String favlag;
+
+	@Override
+	public String toString() {
+		return favlag;
+	}
+
+	public FavProg(String favlag) {
+		super();
+		this.favlag = favlag;
+	}
+}
